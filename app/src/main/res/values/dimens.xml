@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="text_name_size">33sp</dimen>
+    <dimen name="text_phone_size">20sp</dimen>
+    <dimen name="info_margin_top">20dp</dimen>
+    <dimen name="img_margin_right">15dp</dimen>
+    <dimen name="card_radius">4dp</dimen>
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="card_margin_top">7dp</dimen>
+    <dimen name="like_size">38dp</dimen>
+    <dimen name="actionbar_elevation">4dp</dimen>
+    <dimen name="grid_size_height">170dp</dimen>
+    <dimen name="grid_size_width">160dp</dimen>
+    <dimen name="grid_image_padding">140dp</dimen>
+</resources>

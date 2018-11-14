@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="@dimen/grid_size_width"
+                                    android:layout_height="@dimen/grid_size_height"
+                                    android:layout_marginTop="@dimen/card_margin"
+                                    card_view:cardCornerRadius="@dimen/card_radius"
+                                    android:layout_marginLeft="@dimen/card_margin"
+                                    android:layout_marginStart="@dimen/card_margin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/card_margin_top">
+
+        <ImageView
+            android:id="@+id/ivPhotoCV"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/grid_image_padding"
+            android:src="@drawable/profile"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/transition_name"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/card_radius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tvLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/likes"/>
+
+            <ImageView
+                android:id="@+id/ivLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons8_thumbs_up_48"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
